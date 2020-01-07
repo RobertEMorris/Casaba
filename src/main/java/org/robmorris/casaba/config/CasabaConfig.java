@@ -7,5 +7,4 @@ import org.springframework.context.annotation.Configuration;
 @EnableConfigurationProperties
 public class CasabaConfig {
 
-
 }

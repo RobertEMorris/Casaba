@@ -4,6 +4,9 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+import java.util.List;
+
 @Data
 @Getter
 @Setter
@@ -26,5 +29,7 @@ public class Task {
     private Date started;
 
     private Date completed;
+
+    private List<Critereon> criteria;
 
 }
